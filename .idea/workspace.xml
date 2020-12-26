@@ -30,7 +30,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="Jupyter Settings" />
   </component>
-  <component name="RunManager" selected="Python.DFTmatrix">
+  <component name="RunManager" selected="Python.DenoisingFFT">
     <configuration name="DFTmatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Digital-Signal-Processing-and-Data-pre--processing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +45,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DFTmatrix.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DenoisingFFT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Digital-Signal-Processing-and-Data-pre--processing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DenoisingFFT.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -77,8 +99,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DFTmatrix" />
+        <item itemvalue="Python.DenoisingFFT" />
         <item itemvalue="Python.FourierSeriesPy" />
+        <item itemvalue="Python.DFTmatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +115,8 @@
       <updated>1608676692214</updated>
       <workItem from="1608676696190" duration="2660000" />
       <workItem from="1608683904666" duration="7045000" />
-      <workItem from="1608814996078" duration="819000" />
+      <workItem from="1608814996078" duration="1608000" />
+      <workItem from="1609021458884" duration="3839000" />
     </task>
     <servers />
   </component>
@@ -100,7 +124,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Digital_Signal_Processing_and_Data_pre__processing$FourierSeriesPy.coverage" NAME="FourierSeriesPy Coverage Results" MODIFIED="1608686773052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Digital_Signal_Processing_and_Data_pre__processing$DFTmatrix.coverage" NAME="DFTmatrix Coverage Results" MODIFIED="1608815739448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Digital_Signal_Processing_and_Data_pre__processing$DenoisingFFT.coverage" NAME="DenoisingFFT Coverage Results" MODIFIED="1609026266770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Digital_Signal_Processing_and_Data_pre__processing$FourierSeriesPy.coverage" NAME="FourierSeriesPy Coverage Results" MODIFIED="1609025013679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Digital_Signal_Processing_and_Data_pre__processing$DFTmatrix.coverage" NAME="DFTmatrix Coverage Results" MODIFIED="1609024908057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

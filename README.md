@@ -17,4 +17,6 @@ can identify if a car has a problem by identifying a weird noise. This algorithm
 
 The DFTmatrix matlab file has two ways of computing the DFT matrix a slow, and a faster way even thought when computing the DFT you will always use the fast fourier transform (FFT) for its development consists in making the DFT computationally efficient.
 
+When applying the FFT inside the returned vector reside the fourier coefficients. Each of these coefficients will always have a magnitude (which tells us the importance of that specific frequency, how much we have it) and phase (this tells us if this frequency is more sin or cos).
 
+The DenoisingFFT python and matlab scripts employ the FFT in order to efficiently perform the DFT and obtain the fourier coefficients. Through these we can now single out the frequencies we are interested in by defining a threshold and zeroing out the frequencies bellow that very same threshold. After that we can recover our (now filtered) signal by performing an inverse of the fft.
